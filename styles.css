@@ -172,3 +172,14 @@ div.wrapper-content aside.trend .follow ul li > a{
   text-decoration: none;
   font-size: 14px;
 }
+
+div.wrapper-content aside.trend input{
+  width: 290px;
+  border: 1px solid #0C0D0E;
+  height: 34px;
+  padding: 0 30px 0 12px;
+  border-radius: 16px;
+  color:#ccd5dd;
+  font-size: 13px;
+  background: #202327 url('/images/search.svg') no-repeat 250px center;
+}
