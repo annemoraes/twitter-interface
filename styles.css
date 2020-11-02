@@ -5,7 +5,7 @@
 }
 
 body{
-  background: #e6ecf0;
+  background: #000000;
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -20,6 +20,62 @@ input, button{
   margin: 0 auto;
   padding: 0 30px;
 }
+
+div.wrapper-content{
+  display: flex;
+}
+
+div.wrapper-content aside.menu{
+  width: 260px;
+}
+
+div.wrapper-content aside.menu nav ul{
+  list-style: none;
+}
+
+div.wrapper-content aside.menu .logo{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #D9D9D9;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.wrapper-content aside.menu nav ul li{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #D9D9D9;
+  font-weight: bold;
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+div.wrapper-content aside.menu div.side{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+div.wrapper-content aside.menu div.side button{
+  height: 44px;
+  background: #3bb9e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  border-radius: 30px;
+}
+
+div.wrapper-content aside.menu nav ul li img{
+  margin-right: 20px;
+}
+
 
 header#main-header{
   height: 46px;
