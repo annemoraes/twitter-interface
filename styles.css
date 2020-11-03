@@ -26,7 +26,7 @@ div.wrapper-content{
 }
 
 div.wrapper-content aside.menu{
-  width: 260px;
+  width: 250px;
 }
 
 div.wrapper-content aside.menu nav ul{
@@ -82,11 +82,14 @@ div.wrapper-content aside.menu nav ul li img{
 
 div.wrapper-content .timeline{
   flex-grow: 1;
+  background: #000000;
+  border: 1px solid rgba(56, 56, 55, 0.7);
 }
 
 div.wrapper-content aside.trend{
   width: 290px;
   margin-top: 10px;
+  padding-left: 25px;
 }
 
 div.wrapper-content aside.trend .follow{
@@ -246,4 +249,122 @@ div.wrapper-content aside.trend .search{
 
 div.wrapper-content aside.trend .container{
   padding-top: 20px;
+}
+
+div.wrapper-content section.timeline .home{
+  height: 50px;
+  border-bottom: 1px solid rgba(56, 56, 55, 0.5);
+  align-items: center;
+  display: flex;
+}
+
+div.wrapper-content section.timeline strong{
+  color: #D9D9D9;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+div.wrapper-content section.timeline .tweet {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+div.wrapper-content section.timeline .container-tweet {
+  border-bottom: 9px solid rgba(56, 56, 55, 0.5); ;
+}
+
+div.wrapper-content section.timeline .container-tweet img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+div.wrapper-content section.timeline .container-tweet input{
+  width: 390px;
+  border: none;
+  color:#ccd5dd;
+  font-size: 20px;
+  background: #000000;
+  padding-left: 10px;
+}
+
+div.wrapper-content section.timeline .button-tweet{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+div.wrapper-content section.timeline .button-tweet button{
+  height: 35px;
+  background: #3bb9e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+div.wrapper-content section.timeline .button-tweet button:hover{
+  opacity: 80%;
+  cursor: pointer;
+}
+
+div.wrapper-content .timeline .content  {
+  list-style: none;
+  border-bottom: 1px solid rgba(56, 56, 55, 0.5);
+  height: 110px; 
+}
+
+
+div.wrapper-content section.timeline .content #profile{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+div.wrapper-content section.timeline .content .tweets .tweet strong{
+  font-size: 14px;
+  color:  #D9D9D9;
+}
+
+div.wrapper-content section.timeline .content .tweets .tweet span{
+  font-weight: normal;
+  font-size: 13px;
+}
+
+div.wrapper-content section.timeline .content .tweets .tweet p{
+  margin-left: 10px;
+  font-size: 14px;
+  color: #fff;
+  padding-top: 5px;
+}
+
+div.wrapper-content section.timeline .content .tweets .tweet .actions{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 35px;
+}
+
+div.wrapper-content section.timeline .content .tweets .tweet .actions img{
+  padding-top: 10px;
+}
+
+div.wrapper-content section.timeline .content .tweets .tweet .actions > a{
+  color: #ccd5dd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+div.wrapper-content section.timeline .content .tweets .info {
+  padding-top: 25px;
+  padding-left: 15px;
 }
